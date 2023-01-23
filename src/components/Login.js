@@ -20,7 +20,7 @@ function Login({ setIsLoggedIn }) {
 
     setIsLoggedIn(true);
 
-    // after logging the user in, redirect to the home page!
+ 
     history.push("/");
   }
 
@@ -40,6 +40,7 @@ function Login({ setIsLoggedIn }) {
         onChange={handleChange}
       />
       <button type="submit">Login</button>
+      
     </form>
   );
 }
